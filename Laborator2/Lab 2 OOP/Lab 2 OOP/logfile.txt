@@ -1,0 +1,6 @@
+[2024-10-07 00:04:07] INFO: Faculty fcim was created
+[2024-10-07 00:04:38] INFO: Student victor was created
+[2024-10-07 00:04:42] INFO: Student victor was assigned to the faculty fcim
+[2024-10-07 00:04:42] INFO: Data saved successfully.
+[2024-10-07 00:10:42] INFO: Faculty FCIM was created
+[2024-10-07 00:11:35] INFO: Data loaded successfully.
