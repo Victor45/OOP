@@ -20,7 +20,6 @@ Faculty::Faculty(string n, string a, StudyField sf) {
 
 void Faculty::assignStudent(Student& student) {
     students.push_back(student);
-    cout << student.firstName << " " << student.lastName << " was assigned to " << abreviation << endl;
 }
 
 void Faculty::enrolled() {

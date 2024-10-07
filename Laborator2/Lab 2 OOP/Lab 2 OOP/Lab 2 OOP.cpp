@@ -125,8 +125,9 @@ int main()
                     break;
                 }
                 }
-                break;
             }
+            break;
+        }
         case 3:
         {
             FileManager::saveData(faculties);
@@ -140,7 +141,6 @@ int main()
         case 0:
         {
             return 0;
-        }
         }
         }
     }

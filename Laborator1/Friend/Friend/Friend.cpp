@@ -32,7 +32,7 @@ public:
 	{
 		grade1 = 9;
 	}
-	
+
 	friend class Student2;
 
 	void showgrade2(Student2& s);
@@ -48,6 +48,7 @@ public:
 	{
 		grade2 = 5;
 	}
+
 	friend class Student1;
 
 	void showgrade1(Student1& s)
