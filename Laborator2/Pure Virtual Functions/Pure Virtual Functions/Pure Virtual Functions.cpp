@@ -37,14 +37,7 @@ public:
 
 void printRole( Person* person)
 {
-	if (person)
-	{
-		cout << "Role: " << person->getRole() << endl; 
-	}
-	else
-	{
-		cout << "Null pointer provided!" << endl; 
-	}
+	cout << "Role: " << person->getRole() << endl; 
 }
 
 int main()
