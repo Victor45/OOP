@@ -1,0 +1,7 @@
+6
+Elena,Moraru,moraru.elena@gmail.com,01.09.2022,12.07.2003
+Andrei,Rusu,rusu.andrei@gmail.com,01.09.2023,03.10.2004
+Ion,Bivol,ion.bivol@gmail.com,01.09.2023,20.05.2004
+Eugen,Borta,eugen.borta@gmail.com,01.09.2023,14.08.2004
+Vasile,Cebotari,vasile.cebotari@gmail.com,01.09.2021,18.09.2002
+Adrian,Manole,Adrian.manole@gmail.com,01.09.2023,03.07.2003

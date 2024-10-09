@@ -15,3 +15,4 @@ void graduate();
 void displayenrolled();
 void displaygraduated();
 void tellbelongsornot();
+void batchenrollment();

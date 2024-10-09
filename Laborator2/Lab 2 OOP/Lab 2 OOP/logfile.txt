@@ -7,3 +7,20 @@
 [2024-10-07 20:11:36] INFO: Faculty fcim was created
 [2024-10-07 20:13:27] INFO: Faculty fcim was created
 [2024-10-07 20:14:10] ERROR: Faculty fd doesn't exist
+[2024-10-09 19:45:01] INFO: Data loaded successfully.
+[2024-10-09 19:45:15] ERROR: Faculty fcim doesn't exist
+[2024-10-09 19:46:41] INFO: Data loaded successfully.
+[2024-10-09 19:47:13] INFO: Students enrolled successfully
+[2024-10-09 19:47:58] INFO: Student moraru.elena@gmail.com was graduated
+[2024-10-09 19:49:09] ERROR: Faculty fcim doesn't exist
+[2024-10-09 19:49:40] INFO: Faculty FD was created
+[2024-10-09 20:04:20] INFO: Data loaded successfully.
+[2024-10-09 20:04:48] ERROR: There are no faculties belonging to this field.
+[2024-10-09 20:05:31] INFO: Data loaded successfully.
+[2024-10-09 20:05:40] INFO: Students enrolled successfully
+[2024-10-09 20:06:21] INFO: Student vasile.cebotari@gmail.com was graduated
+[2024-10-09 20:08:21] INFO: Data loaded successfully.
+[2024-10-09 20:09:55] INFO: Students enrolled successfully
+[2024-10-09 20:10:26] INFO: Student rusu.andrei@gmail.com was graduated
+[2024-10-09 20:12:39] INFO: Data loaded successfully.
+[2024-10-09 20:12:44] INFO: Students enrolled successfully

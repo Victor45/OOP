@@ -2,6 +2,7 @@
 #include "Faculty.h"
 #include "Logger.h"
 #include "GlobalVariables.h"
+#include "FileManager.h"
 
 using namespace std;
 
@@ -49,7 +50,7 @@ void belongsbyemail()
     }
     if (belongs == 0)
     {
-        cout << "This student does not belong to any faculty." << endl;
+        logger.log(INFO, "This student does not belong to any faculty.");
     }
 }
 
@@ -81,7 +82,7 @@ void byField()
     }
     if (field == 0)
     {
-        cout << "There are no faculties belonging to this field." << endl;
+        logger.log(ERROR, "There are no faculties belonging to this field.");
     }
 }
 
@@ -99,7 +100,7 @@ void studentinfo()
             {
                 found = 1;
                 j.showInfo();
-                cout << "Status: Enrolled" << endl;
+                cout << "Faculty: " << i.abreviation << ", Status: Enrolled" << endl;
             }
         }
         for (Student& j : i.Graduated)
@@ -108,13 +109,13 @@ void studentinfo()
             {
                 found = 1;
                 j.showInfo();
-                cout << "Status: Graduated" << endl;
+                cout << "Faculty: " << i.abreviation << ", Status: Graduated" << endl;
             }
         }
     }
     if (found == 0)
     {
-        cout << "This student does not exist." << endl;
+        logger.log(ERROR, "This student doesn't exist");
     }
 }
 
@@ -248,5 +249,20 @@ void tellbelongsornot()
     if (f == 0) logger.log(ERROR, "Faculty " + faculty + " doesn't exist");
 }
 
-
+void batchenrollment()
+{
+    string faculty;
+    cout << "Faculty to enroll (abreviation): ";
+    cin >> faculty;
+    int f = 0;
+    for (Faculty& i : faculties)
+    {
+        if (i.abreviation == faculty)
+        {
+            f = 1;
+            FileManager::BatchEnroll(i);
+        }
+    }
+    if (f == 0) logger.log(ERROR, "Faculty " + faculty + " doesn't exist");
+}
 

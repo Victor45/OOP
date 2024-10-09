@@ -16,6 +16,7 @@ using namespace std;
 int main()
 {
     int choice = 0;
+    int choice1 = 0;
     int choice2 = 0;
     while (true)
     {
@@ -35,7 +36,7 @@ int main()
         {
         case 1:
         {
-            int choice1 = 0;
+            choice1 = 0;
             while (choice1 != 6)
             {
                 cout << endl;
@@ -84,7 +85,8 @@ int main()
         }
         case 2:
         {
-            while (choice2 != 6)
+            choice2 = 0;
+            while (choice2 != 7)
             {
                 cout << endl;
                 cout << "What do you want to do?" << endl;
@@ -93,7 +95,8 @@ int main()
                 cout << "3. Display current enrolled students." << endl;
                 cout << "4. Display graduates." << endl;
                 cout << "5. Tell or not if a student belongs to this faculty." << endl;
-                cout << "6. Back." << endl;
+                cout << "6. Batch enrollment." << endl;
+                cout << "7. Back." << endl;
                 cout << "Choose an option: ";
                 cin >> choice2;
                 switch (choice2)
@@ -122,6 +125,11 @@ int main()
                 case 5:
                 {
                     tellbelongsornot();
+                    break;
+                }
+                case 6:
+                {
+                    batchenrollment();
                     break;
                 }
                 }

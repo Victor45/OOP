@@ -1,0 +1,8 @@
+[2024-10-07 21:29:14]: Succesfully created polimorphism.
+[2024-10-07 21:31:42]: Succesfully created polimorphism.
+[2024-10-07 21:31:42]: Succesfully created polimorphism.
+[2024-10-07 21:31:42]: Succesfully created polimorphism.
+[2024-10-07 21:31:42]: Succesfully created polimorphism.
+[2024-10-07 21:31:42]: Succesfully created polimorphism.
+[2024-10-07 22:06:10] INFOSuccessfully using polimorphism
+[2024-10-09 19:09:40] INFO: Successfully using polimorphism

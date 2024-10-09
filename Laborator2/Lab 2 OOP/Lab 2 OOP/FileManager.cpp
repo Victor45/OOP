@@ -102,3 +102,37 @@ void FileManager::loadData(list<Faculty>& faculties)
     inFile.close();
     logger.log(INFO, "Data loaded successfully.");
 }
+
+void FileManager::BatchEnroll(Faculty& faculty)
+{
+    ifstream inFile("batch_enroll.txt");
+
+    if (!inFile) {
+        cerr << "Error: Could not open file for reading." << endl;
+        return;
+    }
+
+    int students;
+    string line;
+
+    getline(inFile, line);
+    students = stoi(line);
+
+    for (int i = 0; i < students; i++)
+    {
+        string fname, lname, email, enrollDate, birthDate;
+
+        getline(inFile, line);
+        stringstream ss2(line);
+        getline(ss2, fname, ',');
+        getline(ss2, lname, ',');
+        getline(ss2, email, ',');
+        getline(ss2, enrollDate, ',');
+        getline(ss2, birthDate);
+
+        Student student(fname, lname, email, enrollDate, birthDate);
+        faculty.students.push_back(student);
+    }
+    inFile.close();
+    logger.log(INFO, "Students enrolled successfully");
+}

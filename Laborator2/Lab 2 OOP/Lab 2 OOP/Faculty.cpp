@@ -27,9 +27,9 @@ void Faculty::enrolled() {
         cout << "There are no students enrolled in this faculty." << endl;
     }
     else {
-        cout << abreviation << "'s enrolled students: " << endl;
+        cout << abreviation << "'s enrolled students (" << students.size() <<  "): " << endl;
         for (Student& i : students) {
-            cout << i.firstName << " " << i.lastName << ", " << i.email << endl;
+            cout << i.firstName << " " << i.lastName << ", " << i.email << ", Enrollment Date: " << i.enrollmentDate << endl;
         }
     }
 }
