@@ -26,6 +26,7 @@ public:
 		studentID = id;
 		faculty = f;
 	}
+
 };
 
 class Employee
@@ -50,6 +51,18 @@ public:
 	{
 		experience = exp;
 	}
+
+	void showinfo()
+	{
+		cout << endl;
+		cout << "Name: " << name << endl;
+		cout << "Age: " << age << endl;
+		cout << "ID: " << studentID << endl;
+		cout << "Faculty: " << faculty << endl;
+		cout << "Job: " << job << endl;
+		cout << "Salary: " << salary << endl;
+		cout << "Experience: " << experience << endl;
+	}
 };
 
 int main()
@@ -61,13 +74,7 @@ int main()
 	cout << "Faculty: " << Me.faculty << endl;
 
 	StudentEmployee st("Cristian", 20, 34525, "FCIM", "Developer", 1500, "Senior");
-	cout << endl;
-	cout << "Name: " << st.name << endl;
-	cout << "Age: " << st.age << endl;
-	cout << "ID: " << st.studentID << endl;
-	cout << "Faculty: " << st.faculty << endl;
-	cout << "Job: " << st.job << endl;
-	cout << "Salary: " << st.salary << endl;
-	cout << "Experience: " << st.experience;
+	st.showinfo();
+
 	return 0;
 }

@@ -4,15 +4,16 @@
 #include <list>
 #include "Logger.h"
 
-string newFaculty();
+void newFaculty();
 void belongsbyemail();
 void displayFaculties();
 void byField();
 void studentinfo();
 Student createStudent();
 void createandassign();
-void graduate();
+void graduate(string studentemail = "");
 void displayenrolled();
 void displaygraduated();
 void tellbelongsornot();
 void batchenrollment();
+void batchgraduation();

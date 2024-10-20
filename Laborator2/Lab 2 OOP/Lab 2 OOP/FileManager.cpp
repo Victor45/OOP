@@ -4,6 +4,7 @@
 #include <sstream>
 #include "Logger.h"
 #include "GlobalVariables.h"
+#include "Functions.h"
 
 using namespace std;
 
@@ -123,16 +124,60 @@ void FileManager::BatchEnroll(Faculty& faculty)
         string fname, lname, email, enrollDate, birthDate;
 
         getline(inFile, line);
-        stringstream ss2(line);
-        getline(ss2, fname, ',');
-        getline(ss2, lname, ',');
-        getline(ss2, email, ',');
-        getline(ss2, enrollDate, ',');
-        getline(ss2, birthDate);
+        stringstream ss(line);
+        getline(ss, fname, ',');
+        getline(ss, lname, ',');
+        getline(ss, email, ',');
+        getline(ss, enrollDate, ',');
+        getline(ss, birthDate);
 
         Student student(fname, lname, email, enrollDate, birthDate);
         faculty.students.push_back(student);
     }
     inFile.close();
     logger.log(INFO, "Students enrolled successfully");
+}
+
+void FileManager::BatchGraduate(Faculty& faculty)
+{
+    ifstream inFile("university_data.txt");
+
+    if (!inFile) {
+        cerr << "Error: Could not open file for reading." << endl;
+        return;
+    }
+
+    string line, name, abv, fname, lname, email;
+    int graduated = 0;
+    while (!graduated) {
+        getline(inFile, line);
+        if (line == "") {
+            logger.log(ERROR, "There are no students to graduate");
+            return;
+        }
+        stringstream temp(line);
+        string name, abv;
+        getline(temp, name, ',');
+        getline(temp, abv, ',');
+        if (abv == faculty.abreviation)
+        {
+            getline(inFile, line);
+            if (line == "0") {
+                logger.log(ERROR, "There are no students to graduate");
+                return;
+            }
+            int numStudents = stoi(line);
+            for (int i = 0; i < numStudents; i++)
+            {
+                getline(inFile, line);
+                stringstream temp2(line);
+                getline(temp2, fname, ',');
+                getline(temp2, lname, ',');
+                getline(temp2, email, ',');
+                graduate(email);
+            }
+            graduated = 1;
+        }
+    }
+    if (graduated == 1) logger.log(INFO, "Students graduated successfully");
 }

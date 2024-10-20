@@ -24,3 +24,71 @@
 [2024-10-09 20:10:26] INFO: Student rusu.andrei@gmail.com was graduated
 [2024-10-09 20:12:39] INFO: Data loaded successfully.
 [2024-10-09 20:12:44] INFO: Students enrolled successfully
+[2024-10-20 18:39:12] INFO: Faculty fcim was created
+[2024-10-20 18:39:28] ERROR: There are no faculties belonging to this field.
+[2024-10-20 18:39:45] ERROR: This student doesn't exist
+[2024-10-20 18:40:07] ERROR: Faculty fd doesn't exist
+[2024-10-20 18:40:56] ERROR: You need to save the session first!
+[2024-10-20 18:41:56] INFO: Data loaded successfully.
+[2024-10-20 18:42:26] INFO: Students enrolled successfully
+[2024-10-20 18:43:08] ERROR: You need to save the session first!
+[2024-10-20 18:43:17] INFO: Data saved successfully.
+[2024-10-20 18:43:26] ERROR: Faculty d doesn't exist
+[2024-10-20 18:43:36] ERROR: The student  was not found.
+[2024-10-20 18:43:36] ERROR: The student  was not found.
+[2024-10-20 18:43:36] ERROR: The student  was not found.
+[2024-10-20 18:43:36] ERROR: The student  was not found.
+[2024-10-20 18:43:36] ERROR: The student  was not found.
+[2024-10-20 18:43:36] ERROR: The student  was not found.
+[2024-10-20 18:43:36] INFO: Students graduated successfully
+[2024-10-20 18:46:11] INFO: Data loaded successfully.
+[2024-10-20 18:46:16] INFO: Data saved successfully.
+[2024-10-20 18:48:30] INFO: Data loaded successfully.
+[2024-10-20 18:48:33] INFO: Data saved successfully.
+[2024-10-20 18:48:42] INFO: Student moraru.elena@gmail.com was graduated
+[2024-10-20 18:48:42] INFO: Student rusu.andrei@gmail.com was graduated
+[2024-10-20 18:48:42] INFO: Student ion.bivol@gmail.com was graduated
+[2024-10-20 18:48:42] INFO: Student eugen.borta@gmail.com was graduated
+[2024-10-20 18:48:42] INFO: Student vasile.cebotari@gmail.com was graduated
+[2024-10-20 18:48:42] INFO: Student Adrian.manole@gmail.com was graduated
+[2024-10-20 18:48:42] INFO: Students graduated successfully
+[2024-10-20 18:49:17] ERROR: There are no faculties belonging to this field.
+[2024-10-20 18:54:37] INFO: Faculty FCIM was created
+[2024-10-20 18:54:51] INFO: This student does not belong to any faculty.
+[2024-10-20 18:55:33] INFO: Faculty Design was created
+[2024-10-20 19:00:35] INFO: Faculty fcim was created
+[2024-10-20 19:05:41] INFO: Faculty FCIM was created
+[2024-10-20 19:06:28] INFO: Faculty fcim was created
+[2024-10-20 19:07:09] ERROR: This option is invalid!
+[2024-10-20 19:07:14] ERROR: This option is invalid!
+[2024-10-20 19:07:16] INFO: Faculty fcim was created
+[2024-10-20 19:09:41] INFO: Student df was created
+[2024-10-20 19:09:46] ERROR: Faculty d doesn't exist
+[2024-10-20 19:09:46] ERROR: Student df was not assigned to d
+[2024-10-20 19:09:47] ERROR: Faculty df doesn't exist
+[2024-10-20 19:09:47] ERROR: Student df was not assigned to df
+[2024-10-20 19:09:48] ERROR: Faculty df doesn't exist
+[2024-10-20 19:09:48] ERROR: Student df was not assigned to df
+[2024-10-20 19:09:49] ERROR: Faculty df doesn't exist
+[2024-10-20 19:09:49] ERROR: Student df was not assigned to df
+[2024-10-20 19:09:49] ERROR: Faculty df doesn't exist
+[2024-10-20 19:09:49] ERROR: Student df was not assigned to df
+[2024-10-20 19:09:50] ERROR: Faculty df doesn't exist
+[2024-10-20 19:09:50] ERROR: Student df was not assigned to df
+[2024-10-20 19:09:50] ERROR: Faculty df doesn't exist
+[2024-10-20 19:09:50] ERROR: Student df was not assigned to df
+[2024-10-20 19:09:51] ERROR: Faculty dd doesn't exist
+[2024-10-20 19:09:51] ERROR: Student df was not assigned to dd
+[2024-10-20 19:09:52] ERROR: Faculty dd doesn't exist
+[2024-10-20 19:09:52] ERROR: Student df was not assigned to dd
+[2024-10-20 19:09:53] ERROR: Faculty ww doesn't exist
+[2024-10-20 19:09:53] ERROR: Student df was not assigned to ww
+[2024-10-20 19:09:53] ERROR: Faculty e doesn't exist
+[2024-10-20 19:09:53] ERROR: Student df was not assigned to e
+[2024-10-20 19:09:54] ERROR: Faculty eg doesn't exist
+[2024-10-20 19:09:54] ERROR: Student df was not assigned to eg
+[2024-10-20 19:18:51] ERROR: The student df@mail.com was not found.
+[2024-10-20 19:19:09] WARNING: invalid option
+[2024-10-20 19:20:47] ERROR: You need to create a faculty first!
+[2024-10-20 19:20:52] ERROR: You need to create a faculty first!
+[2024-10-20 19:21:02] INFO: Faculty ficm was created

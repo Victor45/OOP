@@ -18,6 +18,7 @@ int main()
     int choice = 0;
     int choice1 = 0;
     int choice2 = 0;
+    int savedData = 0;
     while (true)
     {
         cout << endl;
@@ -53,12 +54,7 @@ int main()
                 {
                 case 1:
                 {
-                    string faculty_name = newFaculty();
-                    if (faculty_name != "") {
-                        string msg = "Faculty " + faculty_name + " was created";
-                        logger.log(INFO, msg);
-                    }
-                    else logger.log(ERROR, "Faculty was not created");
+                    newFaculty();
                     break;
                 }
                 case 2:
@@ -86,7 +82,7 @@ int main()
         case 2:
         {
             choice2 = 0;
-            while (choice2 != 7)
+            while (choice2 != 8)
             {
                 cout << endl;
                 cout << "What do you want to do?" << endl;
@@ -96,14 +92,18 @@ int main()
                 cout << "4. Display graduates." << endl;
                 cout << "5. Tell or not if a student belongs to this faculty." << endl;
                 cout << "6. Batch enrollment." << endl;
-                cout << "7. Back." << endl;
+                cout << "7. Batch graduation." << endl;
+                cout << "8. Back." << endl;
                 cout << "Choose an option: ";
                 cin >> choice2;
                 switch (choice2)
                 {
                 case 1:
                 {
-                    createandassign();
+                    if (!faculties.empty()) {
+                        createandassign();
+                    }
+                    else logger.log(ERROR, "You need to create a faculty first!");
                     break;
                 }
                 case 2:
@@ -132,6 +132,14 @@ int main()
                     batchenrollment();
                     break;
                 }
+                case 7:
+                {
+                    if (savedData == 1) {
+                        batchgraduation();
+                    }
+                    else logger.log(ERROR, "You need to save the session first!");
+                    break;
+                }
                 }
             }
             break;
@@ -139,6 +147,7 @@ int main()
         case 3:
         {
             FileManager::saveData(faculties);
+            savedData = 1;
             break;
         }
         case 4:

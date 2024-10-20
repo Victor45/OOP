@@ -10,7 +10,7 @@ public:
 
     Student operator++()
     {
-        credits++;
+        ++credits;
         return *this;
     }
 
@@ -34,16 +34,16 @@ public:
 
 int main() {
     Student student1("Victor", 30);
-    Student student2("Ion", 25);
+    Student student2("Cristi", 25);
 
     Student student3 = student1 + student2;
     student3.showinfo();
 
-    ++student3;
-    student3.showinfo();
+    ++student1;
+    student1.showinfo();
 
-    student3++;
-    student3.showinfo();
+    student2++;
+    student2.showinfo();
 
     return 0;
 }

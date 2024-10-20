@@ -6,10 +6,8 @@
 
 using namespace std;
 
-string newFaculty()
+void newFaculty()
 {
-    int size = faculties.size();
-
     cin.ignore();
     string name, abreviation;
     StudyField studyfield;
@@ -18,17 +16,21 @@ string newFaculty()
     getline(cin, name);
     cout << "Abreviation: ";
     getline(cin, abreviation);
-    cout << "StudyField (ME (0), SE (1), FT (2), UA (3), VM (4)): ";
-    cin >> input;
+    do {
+        cout << "StudyField (ME (0), SE (1), FT (2), UA (3), VM (4)): ";
+        cin >> input;
+        if (input < 0 || input > 4)
+        {
+            logger.log(ERROR, "This option is invalid!");
+        }
+    } while (input < 0 || input > 4);
     studyfield = static_cast<StudyField>(input);
 
     Faculty faculty1(name, abreviation, studyfield);
     faculties.push_back(faculty1);
 
-    if (faculty1.name == name && size + 1 == faculties.size()) {
-        return faculty1.name;
-    }
-    else return "";
+    string msg = "Faculty " + name + " was created";
+    logger.log(INFO, msg);
 }
 
 void belongsbyemail()
@@ -166,11 +168,14 @@ void createandassign()
     } while (f == 0);
 }
 
-void graduate()
+void graduate(string studentemail)
 {
     string email;
-    cout << "Enter the student email: ";
-    cin >> email;
+    if (studentemail == "") {
+        cout << "Enter the student email: ";
+        cin >> email;
+    }
+    else email = studentemail;
     int graduate = 0;
     for (Faculty& i : faculties)
     {
@@ -266,3 +271,19 @@ void batchenrollment()
     if (f == 0) logger.log(ERROR, "Faculty " + faculty + " doesn't exist");
 }
 
+void batchgraduation()
+{
+    string faculty;
+    cout << "Students of which faculty to graduate (abreviation)?: ";
+    cin >> faculty;
+    int f = 0;
+    for (Faculty& i : faculties)
+    {
+        if (i.abreviation == faculty)
+        {
+            f = 1;
+            FileManager::BatchGraduate(i);
+        }
+    }
+    if (f == 0) logger.log(ERROR, "Faculty " + faculty + " doesn't exist");
+}
