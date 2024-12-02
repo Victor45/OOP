@@ -92,3 +92,12 @@
 [2024-10-20 19:20:47] ERROR: You need to create a faculty first!
 [2024-10-20 19:20:52] ERROR: You need to create a faculty first!
 [2024-10-20 19:21:02] INFO: Faculty ficm was created
+[2024-10-21 10:22:49] INFO: Data loaded successfully.
+[2024-10-21 10:23:45] INFO: Data saved successfully.
+[2024-10-21 10:23:52] INFO: Student moraru.elena@gmail.com was graduated
+[2024-10-21 10:23:52] INFO: Student rusu.andrei@gmail.com was graduated
+[2024-10-21 10:23:52] INFO: Student ion.bivol@gmail.com was graduated
+[2024-10-21 10:23:52] INFO: Student eugen.borta@gmail.com was graduated
+[2024-10-21 10:23:52] INFO: Student vasile.cebotari@gmail.com was graduated
+[2024-10-21 10:23:52] INFO: Student Adrian.manole@gmail.com was graduated
+[2024-10-21 10:23:52] INFO: Students graduated successfully
