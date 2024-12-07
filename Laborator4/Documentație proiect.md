@@ -70,13 +70,14 @@ Ecosistemul simulează:
 ![image](https://github.com/user-attachments/assets/94629927-28c3-4f9a-99c3-a011b459ce8b)
 
 #### 2. Primul ciclu din ecosistem - Fără evenimente aleatorii.
-![image](https://github.com/user-attachments/assets/77053266-25f5-4f22-8419-5fc9dd4aab36)
+![image](https://github.com/user-attachments/assets/df330634-afbf-4dfb-aca6-f5dd0409957f)
 
 #### 3. Al doilea ciclu din ecosistem - Furtună.
-![image](https://github.com/user-attachments/assets/aff711da-0955-463f-b022-b8df2f69ce9f)
+![image](https://github.com/user-attachments/assets/3dcaad8e-68dc-4745-8ae6-c2850268f204)
 
 #### 4. Al treilea ciclu din ecosistem - Secetă
-![image](https://github.com/user-attachments/assets/48733245-18af-48fa-a4f5-fee625e74e85)
+![image](https://github.com/user-attachments/assets/1f319d2b-7147-4c5f-9179-e62944b7da57)
+
 
 ## Dificultățile întâlnite și soluțiile adoptate.
 - A fost adăugată o variailă `ID` pentru fiecare entitate pentru a le putea diferenția în ecosistem.
