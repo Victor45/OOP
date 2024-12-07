@@ -1,0 +1,28 @@
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\bin\Debug\net6.0\Lab 4 POO.exe
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\bin\Debug\net6.0\Lab 4 POO.deps.json
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\bin\Debug\net6.0\Lab 4 POO.runtimeconfig.json
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\bin\Debug\net6.0\Lab 4 POO.dll
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\bin\Debug\net6.0\Lab 4 POO.pdb
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.AssemblyInfo.cs
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.dll
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\obj\Debug\net6.0\refint\Lab 4 POO.dll
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.pdb
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.genruntimeconfig.cache
+C:\Users\user\Desktop\Lab 4 POO\Lab 4 POO\obj\Debug\net6.0\ref\Lab 4 POO.dll
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\bin\Debug\net6.0\Lab 4 POO.exe
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\bin\Debug\net6.0\Lab 4 POO.deps.json
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\bin\Debug\net6.0\Lab 4 POO.runtimeconfig.json
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\bin\Debug\net6.0\Lab 4 POO.dll
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\bin\Debug\net6.0\Lab 4 POO.pdb
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.AssemblyInfo.cs
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.dll
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\obj\Debug\net6.0\refint\Lab 4 POO.dll
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.pdb
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\obj\Debug\net6.0\Lab 4 POO.genruntimeconfig.cache
+C:\Users\user\Desktop\POO\Laborator4\Lab 4 POO\obj\Debug\net6.0\ref\Lab 4 POO.dll

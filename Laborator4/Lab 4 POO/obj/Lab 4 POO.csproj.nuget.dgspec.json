@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\POO\\Laborator4\\Lab 4 POO\\Lab 4 POO\\Lab 4 POO.csproj": {}
+    "C:\\Users\\user\\Desktop\\POO\\Laborator4\\Lab 4 POO\\Lab 4 POO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\POO\\Laborator4\\Lab 4 POO\\Lab 4 POO\\Lab 4 POO.csproj": {
+    "C:\\Users\\user\\Desktop\\POO\\Laborator4\\Lab 4 POO\\Lab 4 POO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\POO\\Laborator4\\Lab 4 POO\\Lab 4 POO\\Lab 4 POO.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\POO\\Laborator4\\Lab 4 POO\\Lab 4 POO.csproj",
         "projectName": "Lab 4 POO",
-        "projectPath": "C:\\Users\\user\\Desktop\\POO\\Laborator4\\Lab 4 POO\\Lab 4 POO\\Lab 4 POO.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\POO\\Laborator4\\Lab 4 POO\\Lab 4 POO.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\POO\\Laborator4\\Lab 4 POO\\Lab 4 POO\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\POO\\Laborator4\\Lab 4 POO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
