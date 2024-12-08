@@ -61,13 +61,13 @@ Ecosistemul simulează:
 12.	`FinalRaport()` – În această metodă are loc afișarea stării finale a ecosistemului în urma simulării unui ciclu. În consolă vor fi afișate numele, poziția și energia fiecărei entități rămase.
 
 ## Diagrama UML a programului.
-![image](https://github.com/user-attachments/assets/52bbe40d-4fc1-4a13-b274-a6ea2fafd184)
+![image](https://github.com/user-attachments/assets/823afbc7-8abe-4b23-8ae5-5912e681cfc0)
 
 ## Scenarii de utilizare.
   Simularea ecosistemului a fost realizata în 3 cicluri de trecere a timpului, fiecare ciclu fiind un scenariu diferit. In primul ciclu a fost simulat comportamentul entităților fără prezența unui eveniment aleatoriu. În al doilea ciclu a fost simulată evoluția entităților în prezența unei furtuni, iar în al 3-lea ciclu evenimentul prezent este seceta. Interacțiunile între entități sunt afișate în timpul ciclului, la fiecare acțiune manifestată. La finalul unui ciclu este afișat un raport cu starea ecosistemului în urma simulării.
 
 #### 1. Starea inițială a ecosistemului.
-![image](https://github.com/user-attachments/assets/94629927-28c3-4f9a-99c3-a011b459ce8b)
+![image](https://github.com/user-attachments/assets/fa7ca4d9-7f55-49c9-8de8-2631eb16951d)
 
 #### 2. Primul ciclu din ecosistem - Fără evenimente aleatorii.
 ![image](https://github.com/user-attachments/assets/df330634-afbf-4dfb-aca6-f5dd0409957f)
